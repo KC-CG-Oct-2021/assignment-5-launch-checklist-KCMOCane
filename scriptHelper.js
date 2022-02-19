@@ -69,7 +69,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
         list.style.visibility = "visible";
         document.getElementById ("launchStatus").innerHTML = "Shuttle is Ready for Launch";
         document.getElementById ("launchStatus").style.color = 'rgb(65, 159, 106';
-        document.getElementById ("fuelStatus").innerHTML = "Fuel level is high enough for launch";
+        document.getElementById ("fuelStatus").innerHTML = "Fuel level high enough for launch";
         document.getElementById ("cargoStatus").innerHTML = "Cargo mass low enough for launch";
      }
 }
